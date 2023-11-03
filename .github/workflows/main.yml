@@ -1,7 +1,7 @@
 name: pagina
 on: workflow_dispatch
 jobs:
-  windows-job:
+  web-despl:
     runs-on: ubuntu-latest
     steps:
       - name: Desplegando pagina web
