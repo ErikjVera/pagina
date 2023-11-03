@@ -1,8 +1,8 @@
-name: windows action
+name: pagina
 on: workflow_dispatch
 jobs:
   windows-job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Desplegando pagina web
         run: echo "Desplegando pagina web"
