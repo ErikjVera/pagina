@@ -1,0 +1,10 @@
+name: windows action
+on: workflow_dispatch
+jobs:
+  windows-job:
+    runs-on: windows-latest
+    steps:
+      - name: Desplegando pagina web
+        run: echo "Desplegando pagina web"
+      - name: Print bye
+        run: echo "web"
